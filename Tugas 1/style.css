@@ -1,0 +1,805 @@
+body {
+    background-color: grey;
+}
+
+.head {
+    background-color: grey;
+    width: 1240px;
+    height: 104px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 18px;
+}
+
+.head img {
+    width: 135px;
+    height: 82px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body {
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 852px;
+    margin-left: 100px;
+    margin-right: 940px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.body img {
+    width: 200px;
+    height: 200px;
+    margin-left: 92px;
+    margin-right: 108px;
+    margin-top: 52px;
+}
+
+.body h1 {
+    position: absolute;
+    color: #0B0909;
+    font-family: Raleway;
+    font-size: 28.42px;
+    font-style: normal;
+    width: 1000px;
+    height: 36px;
+    margin-left: 53px;
+    margin-top: 266px;
+    margin-bottom: 550px;
+    text-align: justify;
+}
+
+.body p {
+    position: absolute;
+    color: rgba(11, 9, 9, 0.50);
+    font-family: Raleway;
+    margin-top: 306px;
+    margin-left: 124.5px
+}
+
+.fb {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+
+.fb img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+
+.link {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 170px;
+    margin-left: 60px;
+}
+
+
+.link img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 170px;
+    margin-left: 60px;
+}
+
+.twit {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.twit img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.gitH {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-top: 170px;
+    margin-left: 140px;
+}
+
+.gitH img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 170px;
+    margin-left: 140px;
+}
+
+.contactC {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: #F2F5F9;
+    margin-top: 436px;
+    margin-left: 25px;
+}
+
+.contactC .phone {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    margin-top: 43.5px;
+    margin-left: 38px;
+}
+
+.contactC .Tphone {
+    position: absolute;
+    color: rgba(26, 16, 3, 0.50);
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 0px;
+    font-weight: 600;
+    margin-left: 92px;
+    margin-top: 58px;
+}
+
+.contactC .no {
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 67px;
+}
+
+.contactC .hrPhone {
+    width: 256px;
+    height: 1px;
+    background-color: #E3E3E3;
+    margin-top: 96px;
+}
+
+.contactC .email {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    margin-left: 38px;
+    margin-top: 0px;
+}
+
+.contactC .Temail {
+    position: absolute;
+    color: rgba(26, 16, 3, 0.50);
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 0px;
+    font-weight: 600;
+    margin-left: 92px;
+    margin-top: 12px;
+}
+
+.contactC .Myemail {
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 21px;
+}
+
+.contactC .hrEmail {
+    width: 256px;
+    height: 1px;
+    background-color: #E3E3E3;
+    margin-top: 60px;
+}
+
+.contactC .location {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    margin-left: 38px;
+    margin-top: 0px;
+}
+
+.contactC .Tlocation {
+    position: absolute;
+    color: rgba(26, 16, 3, 0.50);
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 0px;
+    font-weight: 600;
+    margin-left: 92px;
+    margin-top: 12px;
+}
+
+.contactC .Mylocation {
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 21px;
+}
+
+.contactC .hrlocation {
+    width: 256px;
+    height: 1px;
+    background-color: #E3E3E3;
+    margin-top: 60px;
+}
+
+.download {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-right: 200px;
+}
+
+.download img {
+    position: absolute;
+    width: 185px;
+    height: 44px;
+    margin-top: 25px;
+}
+
+
+.navA {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 503px;
+    height: 100px;
+    margin-left: 675px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.AboutMe {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 501px;
+    margin-top: 152px;
+}
+
+.AboutMe h1 {
+    color: #0B0909;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 28px;
+    margin-left: 73.5px;
+}
+
+.AboutMe hr {
+    background-color: #FE9119;
+    width: 252px;
+    height: 2px;
+    margin-top: 47px;
+    margin-left: 316px;
+}
+
+.AboutMe div {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 820px;
+    height: 700px;
+    margin-top: 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.AboutMe p {
+    position: absolute;
+    width: 674px;
+    height: 120px;
+    margin-top: 43px;
+    margin-left: 81px;
+}
+
+.AboutMe .what_i_do {
+    color: #000;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+    letter-spacing: 0.8px;
+    font-size: 32px;
+    margin-top: 170px;
+}
+
+.AboutMe .web {
+    background-color: #FFEBD1;
+    width: 333px;
+    height: 169px;
+    margin-top: 238px;
+    margin-left: 73px;
+}
+
+.AboutMe .web img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.AboutMe .web span {
+    position: absolute;
+    width: 260px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-left: 60px;
+    margin-top: 14px;
+}
+
+.AboutMe .web .pWeb {
+    position: absolute;
+    color: #000;
+    font-size: 14px;
+    width: 283px;
+    height: 120px;
+    margin-top: 36px;
+    margin-left: 25px;
+}
+
+.AboutMe .s2 {
+    width: 0px;
+    height: 0px;
+}
+
+.s2 img {
+    width: 333px;
+    height: 169px;
+    margin-top: 238px;
+    margin-left: 433px;
+}
+
+.AboutMe .s3 {
+    width: 0px;
+    height: 0px;
+}
+
+.s3 img {
+    width: 333px;
+    height: 169px;
+    margin-top: 431px;
+    margin-left: 73px;
+}
+
+.AboutMe .s4 {
+    width: 0px;
+    height: 0px;
+}
+
+.s4 img {
+    width: 333px;
+    height: 169px;
+    margin-top: 431px;
+    margin-left: 433px;
+}
+
+/* Resume.html */
+
+div .resumeWeb {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 820px;
+    height: 700px;
+    margin-top: 152px;
+    margin-left: 501px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+div .resumeWeb h1 {
+    color: #0B0909;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+    letter-spacing: 1px;
+    margin-top: 28px;
+}
+
+div .resumeWeb hr {
+    background-color: #FE9119;
+    width: 252px;
+    height: 2px;
+    margin-top: 47px;
+    margin-left: 273px;
+}
+
+div .resumeWeb .education {
+    width: 182px;
+    height: 47px;
+    margin-left: 72px;
+    margin-top: 23px;
+}
+
+div .resumeWeb .experience {
+    width: 182px;
+    height: 47px;
+    margin-top: 23px;
+}
+
+
+div .edu1 {
+    display: flex;
+    width: 288.929px;
+    height: 115.572px;
+    flex-shrink: 0;
+    border-radius: 9.246px;
+    background-color: #FFE3BF;
+    margin-top: 21px;
+    margin-left: 72px;
+}
+
+div .ex1 {
+    width: 288.929px;
+    height: 115.572px;
+    flex-shrink: 0;
+    border-radius: 9.246px;
+    background-color: #FFE3BF;
+    margin-left: 349px;
+}
+
+div .edu2 {
+    width: 288.929px;
+    height: 115.572px;
+    flex-shrink: 0;
+    border-radius: 9.246px;
+    background-color: #FFE3BF;
+    margin-top: 24px;
+    margin-left: 72px;
+}
+
+div .ex2 {
+    width: 288.929px;
+    height: 115.572px;
+    flex-shrink: 0;
+    border-radius: 9.246px;
+    background-color: #FFE3BF;
+    margin-left: 349px;
+}
+
+.edu1T1 {
+    position: absolute;
+    font-size: 14px;
+    width: 100px;
+    margin-top: 24px;
+    margin-left: 9px;
+}
+
+.edu1T2 {
+    position: absolute;
+    color: #000;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 400px;
+    height: 16px;
+    margin-top: 49px;
+    margin-left: 9px;
+}
+
+.edu1T3 {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Raleway';
+    height: 16px;
+    width: 300px;
+    margin-top: 75px;
+    margin-left: 9px;
+}
+
+.work {
+    display: flex;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 27.737px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46.229px; /* 166.667% */
+    letter-spacing: 0.693px;
+    width: 155px;
+    height: 47px;
+    margin-top: 36px;
+    margin-left: 72px;
+}
+
+.softT1 {
+    position: absolute;
+    color: #000;
+    font-family: Poppins;
+    font-size: 27.737px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46.229px; /* 166.667% */
+    letter-spacing: 0.693px;
+    margin-left: 300px;
+}
+
+.softT2 {
+    position: absolute;
+    background-color: #E3E3E3;
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /*200%*/letter-spacing: 0.24px;
+    border-radius: 8px;
+    width: 90px;
+    height: 24px;
+    margin-left: 300px;
+    margin-top: 56px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.softT3 {
+    position: absolute;
+    background-color: #E3E3E3;
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /*200%*/letter-spacing: 0.24px;
+    border-radius: 8px;
+    width: 109px;
+    height: 24px;
+    margin-left: 400px;
+    margin-top: 56px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.softT4 {
+    position: absolute;
+    background-color: #E3E3E3;
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /*200%*/letter-spacing: 0.24px;
+    border-radius: 8px;
+    width: 109px;
+    height: 24px;
+    margin-left: 300px;
+    margin-top: 92px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*About.html*/
+.Contact {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 820px;
+    height: 700px;
+    margin-top: 152px;
+    margin-left: 501px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.ContactT1 {
+    position: absolute;
+    color: #0B0909;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+    letter-spacing: 1px;
+    width: 171px;
+    height: 40px;
+    margin-top: 28px;
+    margin-left: 72px;
+}
+
+.Contact hr {
+    position: absolute;
+    background-color: #FE9119;
+    width: 252px;
+    height: 2px;
+    margin-top: 47px;
+    margin-left: 275px;
+}
+
+
+.Contact img {
+    width: 694px;
+    height: 392px;
+    flex-shrink: 0;
+    margin-left: 72px;
+    margin-top: 32px;
+}
+
+
+.phoneC {
+    display: flex;
+    width: 333px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFEED9;
+    margin-top: 88px;
+    margin-left: 73px;
+}
+
+.phoneC img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-left: 26px;
+}
+
+.phoneCT1{
+    position: absolute;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 250% */
+    letter-spacing: 0.4px;
+    width: 61px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 22px;
+}
+
+.phoneCT2 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.35px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.emailC {
+    display: flex;
+    width: 333px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F2F7FC;
+    margin-left: 227px;
+    margin-top: 0px;
+}
+
+.emailCT1 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.35px;
+    margin-top:22px;
+    margin-left: 60px;
+}
+
+.emailCT2 {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.35px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+/* Navbar */
+.index, .index a, .index img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 368px;
+    margin-top: 5px;
+}
+
+#myImage1 {
+    transition: all 0.3s ease-in-out;
+}
+
+#myImage1:hover {
+    transform: scale(1.1);
+}
+
+
+.resume, .resume a, .resume img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 448px;
+    margin-top: 5px;
+}
+
+#myImage {
+    transition: all 0.3s ease-in-out;
+}
+
+#myImage:hover {
+    transform: scale(1.1);
+}
+
+
+.about, .about a, .about img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 528px;
+    margin-top: 5px;
+}
+
+
+#myImage2 {
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+}
+
+#myImage2:hover {
+    transform: scale(1.1);
+}

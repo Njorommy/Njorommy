@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+</head>
+<body>
+    <script>
+        function hoverImage() {
+            document.getElementById("myImage").src = "Img/Resume Card.jpg";
+        }
+    
+        function unhoverImage() {
+            document.getElementById("myImage").src = "Img/Resume Card.svg";
+        }
+        function hoverImage() {
+            document.getElementById("myImage1").src = "Img/Home Card.jpg";
+        }
+    
+        function unhoverImage() {
+            document.getElementById("myImage1").src = "Img/Home Card.svg";
+        }
+        function hoverImage() {
+            document.getElementById("myImage2").src = "Img/contact card.jpg";
+        }
+    
+        function unhoverImage() {
+            document.getElementById("myImage2").src = "Img/contact card.svg";
+        }
+    </script>
+    <div class="head">
+        <img src="Img\Logo.svg" alt="judul">
+    </div>
+    <div class="body">
+        <img src="Img\Foto Diri.jpg" alt="profile card">
+        <h1>Njo, Rommy Haryanto</h1>
+        <p>FullStack Developer</p>
+        <a class="fb"  href="https://web.facebook.com/me">
+        <img src="Img\Facebook.svg" alt="fb">
+        </a>
+        <a class="link" href="http://www.linkedin.com/in/njo-rommy-haryanto-896058226">
+            <img src="Img\Linkedin.svg" alt="linkedin">
+        </a>
+        <a  class="twit" href="https://twitter.com/HaryantoNjo">
+            <img src="Img\Twitter.svg" alt="twitter">
+        </a>
+        <a class="gitH" href="https://github.com/Njorommy/Njorommy">
+            <img src="Img\Github.svg" alt="github">
+        </a>
+        <div class="contactC">
+        <img class="phone" src="Img\Phone.svg" alt="Lphone">
+        <span class="Tphone" >Phone</span>
+        <p class="no" >087826978217</p>
+        <hr class="hrPhone">
+        <img  class="email" src="Img\Email.svg" alt="email">
+        <span class="Temail" >Email</span>
+        <p class="Myemail" >njorommy@gmail.com</p>
+        <hr class="hrEmail" >
+        <img  class="location"  src="Img\Location.svg" alt="location"> 
+        <span class="Tlocation" >Location</span>
+        <p class="Mylocation" >Semarang, Indonesia</p>
+        <hr class="hrlocation">
+        <a  class="download" href="https://drive.google.com/drive/folders/1i8TAmWB2qKqmR2mXxT3TagwCYTXChayY?usp=drive_link">
+            <img src="Img\Download Details.svg" alt="Download">
+        </a>
+        </div>
+        <div class="navA"></div>
+            <a class="index"  href="landing.html">
+            <img src="Img\Home Card(Orange).png" alt="home card" id="myImage1" onmouseover="hoverImage()" onmouseout="unhoverImage()" onclick="clickImage()">
+            </a>
+            <a class="resume" href="resume.html">
+            <img src="Img\Resume Card.svg" alt="Resume" id="myImage" onmouseover="hoverImage()" onmouseout="unhoverImage()" onclick="clickImage()">
+            </a>
+            <a class="about"  href="about.html">
+            <img src="Img\contact card.svg" alt="contact" id="myImage2" onmouseover="hoverImage()" onmouseout="unhoverImage()" onclick="clickImage()">
+            </a>
+            <div class="resumeWeb" >
+                <h1>Resume</h1>
+                <hr>
+                <img class="education" src="Img\Education heading.svg" alt="education">
+                <img class="experience" src="Img\Experience Heading.svg" alt="experience">
+                <div class="edu1" >
+                    <span class="edu1T1">2021 - Current</span>
+                    <span class="edu1T2" >Teknik Informatika</span>
+                    <span class="edu1T3" >Soegigapranata Catholic University</span>
+                    <div class="ex1" >
+
+                    </div>
+                </div>
+                <div class="edu2" >
+                    <div class="ex2" >
+
+                    </div>
+                </div>
+                <div class="work">
+                    <span class="workT1">Work Skill</span>
+                    <div class="soft">
+                        <span class="softT1">Soft Skill</span>
+                        <span class="softT2">Flexibility</span>
+                        <span class="softT3">Critical Thinking</span>
+                        <span class="softT4">Prolem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>             
+</body>
+</html> 
+
